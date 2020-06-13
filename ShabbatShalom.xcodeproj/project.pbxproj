@@ -32,6 +32,10 @@
 		8FA3374E245A018A001A7DAD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3374D245A018A001A7DAD /* NetworkManager.swift */; };
 		8FA8976924522435002D4CA2 /* MenusHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8976824522435002D4CA2 /* MenusHistoryViewController.swift */; };
 		8FA8976B24524D97002D4CA2 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8976A24524D97002D4CA2 /* RecipesViewController.swift */; };
+		8FA9B2F32492F97F002A9923 /* ShabuShabuDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B2F12492F97F002A9923 /* ShabuShabuDataModel.xcdatamodeld */; };
+		8FA9B2F52492FBD7002A9923 /* Feasto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B2F42492FBD7002A9923 /* Feasto.swift */; };
+		8FA9B2F82492FDDE002A9923 /* Feasto+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B2F62492FDDE002A9923 /* Feasto+CoreDataClass.swift */; };
+		8FA9B2F92492FDDE002A9923 /* Feasto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B2F72492FDDE002A9923 /* Feasto+CoreDataProperties.swift */; };
 		8FB25FF92452069800370E98 /* CustomizedSegueTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB25FF82452069800370E98 /* CustomizedSegueTransitions.swift */; };
 		8FB54F8A244D32EF00E39693 /* UnCategorized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB54F89244D32EF00E39693 /* UnCategorized.swift */; };
 		8FB89641245FA1940073F7A5 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB89640245FA1940073F7A5 /* ImageFetcher.swift */; };
@@ -72,6 +76,10 @@
 		8FA3374D245A018A001A7DAD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8FA8976824522435002D4CA2 /* MenusHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusHistoryViewController.swift; sourceTree = "<group>"; };
 		8FA8976A24524D97002D4CA2 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		8FA9B2F22492F97F002A9923 /* ShabuShabuDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShabuShabuDataModel.xcdatamodel; sourceTree = "<group>"; };
+		8FA9B2F42492FBD7002A9923 /* Feasto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feasto.swift; sourceTree = "<group>"; };
+		8FA9B2F62492FDDE002A9923 /* Feasto+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feasto+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FA9B2F72492FDDE002A9923 /* Feasto+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feasto+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8FB25FF82452069800370E98 /* CustomizedSegueTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedSegueTransitions.swift; sourceTree = "<group>"; };
 		8FB54F89244D32EF00E39693 /* UnCategorized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnCategorized.swift; sourceTree = "<group>"; };
 		8FB89640245FA1940073F7A5 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
@@ -161,6 +169,10 @@
 				8F74566B2437A84900135837 /* AppDelegate.swift */,
 				8F74566D2437A84900135837 /* SceneDelegate.swift */,
 				8FD852582443B83100B52423 /* Main.storyboard */,
+				8FA9B2F12492F97F002A9923 /* ShabuShabuDataModel.xcdatamodeld */,
+				8FA9B2F62492FDDE002A9923 /* Feasto+CoreDataClass.swift */,
+				8FA9B2F72492FDDE002A9923 /* Feasto+CoreDataProperties.swift */,
+				8FA9B2F42492FBD7002A9923 /* Feasto.swift */,
 				8FD852612443CBB900B52423 /* Extenxions */,
 				8F5A87CB244E0A8300CBC9F0 /* Views */,
 				8F58A3F0245BB87800279845 /* Internet Protocols */,
@@ -282,6 +294,7 @@
 				8F74566E2437A84900135837 /* SceneDelegate.swift in Sources */,
 				8F9865D6243A880400A08A3D /* EventsVC.swift in Sources */,
 				8FA3374E245A018A001A7DAD /* NetworkManager.swift in Sources */,
+				8FA9B2F82492FDDE002A9923 /* Feasto+CoreDataClass.swift in Sources */,
 				8FB89641245FA1940073F7A5 /* ImageFetcher.swift in Sources */,
 				8FA8976B24524D97002D4CA2 /* RecipesViewController.swift in Sources */,
 				8F9865DD243AD86D00A08A3D /* EventDetailsVC.swift in Sources */,
@@ -289,6 +302,8 @@
 				8F58A3F2245BD52800279845 /* DispatchGroup.swift in Sources */,
 				8FB54F8A244D32EF00E39693 /* UnCategorized.swift in Sources */,
 				8F5A87CD244E42CE00CBC9F0 /* UIViewExtension.swift in Sources */,
+				8FA9B2F32492F97F002A9923 /* ShabuShabuDataModel.xcdatamodeld in Sources */,
+				8FA9B2F52492FBD7002A9923 /* Feasto.swift in Sources */,
 				8F9998D3244530EE00E97332 /* GuestListTViCell.swift in Sources */,
 				8F53CEB4244288BA0083CD8F /* EventsTViCell.swift in Sources */,
 				8F40CCD4244E83EA009CD90A /* GuestsHistoryVC.swift in Sources */,
@@ -297,6 +312,7 @@
 				8F6E1C222447EDAF000234CD /* PersistenceRelevant.swift in Sources */,
 				8FA8976924522435002D4CA2 /* MenusHistoryViewController.swift in Sources */,
 				8F9171402454D99F007C9CC1 /* ImportFPastGTviCell.swift in Sources */,
+				8FA9B2F92492FDDE002A9923 /* Feasto+CoreDataProperties.swift in Sources */,
 				8F745688243913B300135837 /* SubsequentVC.swift in Sources */,
 				8FD8525C2443C8D100B52423 /* EvtDetailsTviCell.swift in Sources */,
 				8FD86012243E45DB00F97660 /* NavigatoryControllatoryExtenxions.swift in Sources */,
@@ -500,6 +516,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FA9B2F12492F97F002A9923 /* ShabuShabuDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FA9B2F22492F97F002A9923 /* ShabuShabuDataModel.xcdatamodel */,
+			);
+			currentVersion = 8FA9B2F22492F97F002A9923 /* ShabuShabuDataModel.xcdatamodel */;
+			path = ShabuShabuDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8F7456602437A84900135837 /* Project object */;
 }

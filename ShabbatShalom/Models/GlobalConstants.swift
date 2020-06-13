@@ -25,7 +25,7 @@ public struct GlobalConstants {
     static let guestDetailsVCStoryboardID = "GuestDetailsViewController"
     static let recipesVCStoryboardID = "RecipesViewController"
     
-    static let newzURL = "https://newsapi.org/v2/everything?q=bitcoin&from=2020-04-07&sortBy=publishedAt&apiKey=1caa3fa6394e4bf9a6dcf3c4adc34f2b"
+    static let newzURL = "Some custom URL"  // Regenerate API key at https://newsapi.org/   
 }
 
 public var eventNameEntered = "Initial event"

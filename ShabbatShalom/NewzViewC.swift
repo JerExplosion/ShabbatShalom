@@ -8,8 +8,10 @@
 
 import UIKit
 
+// MARK: - Don't try this with the outdated API key. The subscription's terminated Lol. It'd crash.
+
 class NewzViewC: UIViewController {
-    
+      
     override func viewDidLoad() {
         super.viewDidLoad()
         NewzPulling()
