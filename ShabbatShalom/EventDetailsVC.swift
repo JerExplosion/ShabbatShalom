@@ -31,6 +31,9 @@ class EventDetailsViewController: UIViewController {
         
         navigationItem.title = GlobalConstants.eViDetailsNavigationBarTitle
         
+        print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
+        
+        
     }
     
     func generateDatePicker() {
@@ -73,6 +76,12 @@ class EventDetailsViewController: UIViewController {
         
         navigationController?.crossDissolve(destination)
         
+        coreDataSave()
+        coreDataLoad()
+        
+        
+        
+        print("create called")
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

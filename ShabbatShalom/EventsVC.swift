@@ -8,6 +8,8 @@
 
 
 import UIKit
+import CoreData
+
 
 var eventsContainerArray = ["Netflix Dash", "Symphony Qi", "R-Ps Reunit", "Dato Knighto", "SupaMart Riot"]
   
@@ -25,8 +27,22 @@ class EventsViewController: UIViewController {
     
     var sideMenuInSight = false
     
+    
+    
+    // MARK: - separator
+    
+    let newFeastoInstance = Feasto(context: universalContext)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        coreDataCreate() // so frustrating
+        
+        print(newFeastoInstance.menu)
+        
+        // MARK: - Separator
+        
+        
         
         sideMenuVistaImplementation()
         
@@ -97,8 +113,32 @@ class EventsViewController: UIViewController {
             localTextfield = alertTextfield
         }
         
+        // MARK: - new coredata stuff
+
+        
+
         let createAction = UIAlertAction(title: "Create", style: .default) { (action) in
             eventsContainerArray.append(localTextfield.text!)
+            
+            
+            // MARK: - new coredata stuff
+            
+            self.newFeastoInstance.title = localTextfield.text!
+            self.newFeastoInstance.menu = "menuuu"
+            self.newFeastoInstance.notes = "notooo"
+            universalFeastoArray.append(self.newFeastoInstance)
+            
+            do {
+                try universalContext.save()
+            } catch {
+                print("can't save context.  do you copy ")
+            }
+ 
+            print(self.newFeastoInstance)
+            print(universalFeastoArray)
+            
+            // MARK: - separator
+            
             self.eventsTable.reloadData()
         }
         
@@ -109,6 +149,11 @@ class EventsViewController: UIViewController {
         alertCon.addAction(cancelAction)
         alertCon.addAction(createAction)
         present(alertCon, animated: true, completion: nil)
+        
+        
+        // coreDataSave() // update the feastoArray first
+        
+        
     }
 
     @IBAction func guestHistoryButtonClicked(_ sender: UIButton) {
