@@ -251,7 +251,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iceberger" translatesAutoresizingMaskIntoConstraints="NO" id="I7j-a0-QbU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blurGradient" translatesAutoresizingMaskIntoConstraints="NO" id="I7j-a0-QbU">
                                 <rect key="frame" x="0.0" y="100" width="414" height="612"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7gg-9K-2yG">
@@ -747,9 +747,9 @@
         <image name="addAquaBlue" width="96" height="96"/>
         <image name="addBlueBlue" width="96" height="96"/>
         <image name="aquaSmileyFace" width="100" height="100"/>
+        <image name="blurGradient" width="450" height="450"/>
         <image name="deleteBin" width="96" height="96"/>
         <image name="freshGrapeJuice" width="1600" height="1167"/>
-        <image name="iceberger" width="2880" height="1800"/>
         <image name="icon-eventCalendar" width="64" height="64"/>
         <image name="x.squareroot" catalog="system" width="128" height="98"/>
     </resources>

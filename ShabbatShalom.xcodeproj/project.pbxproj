@@ -147,6 +147,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		8F6AD10524B108570085B353 /* Cored */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9B2F42492FBD7002A9923 /* Feasto.swift */,
+				8FA9B2F62492FDDE002A9923 /* Feasto+CoreDataClass.swift */,
+				8FA9B2F72492FDDE002A9923 /* Feasto+CoreDataProperties.swift */,
+			);
+			path = Cored;
+			sourceTree = "<group>";
+		};
 		8F74565F2437A84900135837 = {
 			isa = PBXGroup;
 			children = (
@@ -170,9 +180,7 @@
 				8F74566D2437A84900135837 /* SceneDelegate.swift */,
 				8FD852582443B83100B52423 /* Main.storyboard */,
 				8FA9B2F12492F97F002A9923 /* ShabuShabuDataModel.xcdatamodeld */,
-				8FA9B2F62492FDDE002A9923 /* Feasto+CoreDataClass.swift */,
-				8FA9B2F72492FDDE002A9923 /* Feasto+CoreDataProperties.swift */,
-				8FA9B2F42492FBD7002A9923 /* Feasto.swift */,
+				8F6AD10524B108570085B353 /* Cored */,
 				8FD852612443CBB900B52423 /* Extenxions */,
 				8F5A87CB244E0A8300CBC9F0 /* Views */,
 				8F58A3F0245BB87800279845 /* Internet Protocols */,
