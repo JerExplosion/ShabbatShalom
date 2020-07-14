@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-extension GuestsHistoryViewController {
+extension UITableViewController {
     
     func tableAnimated() {
         
