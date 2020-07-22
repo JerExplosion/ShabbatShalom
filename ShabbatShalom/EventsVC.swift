@@ -6,12 +6,10 @@
 //  Copyright © 2020 Jerry Ren. All rights reserved.
 //
 
-
 import UIKit
 import CoreData
 
-
-var eventsContainerArray = ["Netflix Dash", "Symphony Qi", "R-Ps Reunit", "Dato Knighto", "SupaMart Riot"]
+var eventsContainerArray = ["HBOMax Dash", "Symphony Qi", "EDM Craze", "Dato Knighto", "SupaMart Riot", "Baller Confe"]
   
 class EventsViewController: UIViewController {
     
@@ -26,7 +24,6 @@ class EventsViewController: UIViewController {
     @IBOutlet weak var eventsTable: UITableView!
     
     var sideMenuInSight = false
-    
     
     
     // MARK: - separator
@@ -152,8 +149,7 @@ class EventsViewController: UIViewController {
         
         
         // coreDataSave() // update the feastoArray first
-        
-        
+
     }
 
     @IBAction func guestHistoryButtonClicked(_ sender: UIButton) {
@@ -191,18 +187,34 @@ extension EventsViewController {
     }
 }
 
-
+// MARK: - TableView DataSource
 
 extension EventsViewController: UITableViewDataSource {
     
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = eventsTable.dequeueReusableCell(withIdentifier: GlobalConstants.eventsCell, for: indexPath) as! EventsTViCell
+        
+        switch indexPath.row % 2 {
+        case 1:
+            cell.backgroundColor = UIColor(red: 253/255, green: 218/255, blue: 250/255, alpha: 1)
+        case 0:
+            cell.backgroundColor = UIColor(red: 216/255, green: 232/255, blue: 255/255, alpha: 1)
+        default:
+            cell.backgroundColor = .black
+        }
+        
+    // Tsugi apply the generateColorWithRGB() extension I wrote in Connecto
         
         cell.evTViCelloLabel.text = eventsContainerArray[indexPath.row]
 
         return cell
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return eventsContainerArray.count
     }
