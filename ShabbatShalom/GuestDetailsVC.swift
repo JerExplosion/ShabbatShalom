@@ -19,8 +19,4 @@ class GuestDetailsViewController: UIViewController {
     
     @IBOutlet weak var guestNameTextField: UITextField!
     
-     
-    
-    
-    
 }

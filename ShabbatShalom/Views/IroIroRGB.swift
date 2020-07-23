@@ -11,10 +11,12 @@ import UIKit
 
 extension UIViewController {
     
-    func generateColorWithRGB(red: Int, green: Int, blue: Int, alpha: Float) -> UIColor {
+    func generateColorWithRGB(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: Float) -> UIColor {
         
-        let colorByRGB = UIColor.init(red: CGFloat(red/255), green: CGFloat(green/255), blue: CGFloat(blue/255), alpha: CGFloat(alpha))
+        let colorByRGB = UIColor.init(red: red/255, green: CGFloat(green/255), blue: (blue/255), alpha: CGFloat(alpha))
 
         return colorByRGB
     }
 }
+         
+    
