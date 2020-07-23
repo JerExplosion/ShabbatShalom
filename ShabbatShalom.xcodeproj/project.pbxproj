@@ -29,6 +29,7 @@
 		8F9865D9243A8C1200A08A3D /* TeburuBiewExtenxions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9865D8243A8C1200A08A3D /* TeburuBiewExtenxions.swift */; };
 		8F9865DD243AD86D00A08A3D /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9865DC243AD86D00A08A3D /* EventDetailsVC.swift */; };
 		8F9998D3244530EE00E97332 /* GuestListTViCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9998D2244530EE00E97332 /* GuestListTViCell.swift */; };
+		8FA0E89B24C940A700C94F8A /* IroIroRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0E89A24C940A700C94F8A /* IroIroRGB.swift */; };
 		8FA3374E245A018A001A7DAD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3374D245A018A001A7DAD /* NetworkManager.swift */; };
 		8FA8976924522435002D4CA2 /* MenusHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8976824522435002D4CA2 /* MenusHistoryViewController.swift */; };
 		8FA8976B24524D97002D4CA2 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8976A24524D97002D4CA2 /* RecipesViewController.swift */; };
@@ -73,6 +74,7 @@
 		8F9865D8243A8C1200A08A3D /* TeburuBiewExtenxions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeburuBiewExtenxions.swift; sourceTree = "<group>"; };
 		8F9865DC243AD86D00A08A3D /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
 		8F9998D2244530EE00E97332 /* GuestListTViCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListTViCell.swift; sourceTree = "<group>"; };
+		8FA0E89A24C940A700C94F8A /* IroIroRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IroIroRGB.swift; sourceTree = "<group>"; };
 		8FA3374D245A018A001A7DAD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8FA8976824522435002D4CA2 /* MenusHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusHistoryViewController.swift; sourceTree = "<group>"; };
 		8FA8976A24524D97002D4CA2 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				8FB25FF82452069800370E98 /* CustomizedSegueTransitions.swift */,
 				8FE65215244FA808005D8347 /* TableFlowAnimated.swift */,
 				8FBA992F244BD14E0020573F /* MenuBubbleTag.swift */,
+				8FA0E89A24C940A700C94F8A /* IroIroRGB.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				8FA9B2F52492FBD7002A9923 /* Feasto.swift in Sources */,
 				8F9998D3244530EE00E97332 /* GuestListTViCell.swift in Sources */,
 				8F53CEB4244288BA0083CD8F /* EventsTViCell.swift in Sources */,
+				8FA0E89B24C940A700C94F8A /* IroIroRGB.swift in Sources */,
 				8F40CCD4244E83EA009CD90A /* GuestsHistoryVC.swift in Sources */,
 				8F91714224551B73007C9CC1 /* ImportFromPastGuestsVC.swift in Sources */,
 				8FB25FF92452069800370E98 /* CustomizedSegueTransitions.swift in Sources */,
