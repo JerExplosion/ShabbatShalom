@@ -17,6 +17,8 @@ class CoreDataM {
     
     var persistentContainerSelfGeneration: NSPersistentContainer?
     
+    // MARS: - Generating Context & Container
+    
     func getMainContext() -> NSManagedObjectContext {
         
         var nsmoContext = NSManagedObjectContext()
@@ -36,8 +38,45 @@ class CoreDataM {
         }
     }
     
+    // MARS: - Fetchin'
+    
+    func genericFetch(fetchRequest: NSFetchRequest<NSManagedObject>) -> [NSManagedObject] {
+        do {
+            let entityArry = try getMainContext().fetch(fetchRequest)
+            return entityArry
+        } catch {
+            print("fetch request failure caught")
+            return [NSManagedObject]()
+        }
+    }
+    
+    // MARS: - Update \ Delete \ Insert
+    
+    func update(entity: NSManagedObject, managedObjectContext: NSManagedObjectContext) {
+        // to be implemented slightly later
+    }
+    func delete(entity: NSManagedObject, managedObjectContext: NSManagedObjectContext) {
+        managedObjectContext.delete(entity)
+    }
+    func insert(entity: NSManagedObject, managedObjectContext: NSManagedObjectContext) {
+        managedObjectContext.insert(entity)
+    }
+    
+    // MARS: - Regular save
+    
+    func saveContext() {
+        guard let context = persistentContainerSelfGeneration?.viewContext else { return }
+        
+        if context.hasChanges {
+            do {
+                try context.save()
+            } catch {
+                print("trouble executing saveContext()")
+            }
+        }
+    }
 
-    // default code derived from AppDelegate
+    // default code derived from AppDelegate - Initialization of PersistentContainer
 
     lazy var persistentContainer: NSPersistentContainer = {
 
