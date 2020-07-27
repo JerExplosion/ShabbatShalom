@@ -41,6 +41,7 @@
 		8FB54F8A244D32EF00E39693 /* UnCategorized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB54F89244D32EF00E39693 /* UnCategorized.swift */; };
 		8FB89641245FA1940073F7A5 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB89640245FA1940073F7A5 /* ImageFetcher.swift */; };
 		8FBA9930244BD14E0020573F /* MenuBubbleTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA992F244BD14E0020573F /* MenuBubbleTag.swift */; };
+		8FBD650824CF7E3100075A4F /* CoreDataDataCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBD650724CF7E3100075A4F /* CoreDataDataCore.swift */; };
 		8FCEFD6E2446581B00ED986F /* GuestDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEFD6D2446581B00ED986F /* GuestDetailsVC.swift */; };
 		8FD8525A2443B83200B52423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD852582443B83100B52423 /* Main.storyboard */; };
 		8FD8525C2443C8D100B52423 /* EvtDetailsTviCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8525B2443C8D100B52423 /* EvtDetailsTviCell.swift */; };
@@ -86,6 +87,7 @@
 		8FB54F89244D32EF00E39693 /* UnCategorized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnCategorized.swift; sourceTree = "<group>"; };
 		8FB89640245FA1940073F7A5 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		8FBA992F244BD14E0020573F /* MenuBubbleTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBubbleTag.swift; sourceTree = "<group>"; };
+		8FBD650724CF7E3100075A4F /* CoreDataDataCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDataCore.swift; sourceTree = "<group>"; };
 		8FCEFD6D2446581B00ED986F /* GuestDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDetailsVC.swift; sourceTree = "<group>"; };
 		8FD852592443B83100B52423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FD8525B2443C8D100B52423 /* EvtDetailsTviCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvtDetailsTviCell.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				8FA9B2F42492FBD7002A9923 /* Feasto.swift */,
 				8FA9B2F62492FDDE002A9923 /* Feasto+CoreDataClass.swift */,
 				8FA9B2F72492FDDE002A9923 /* Feasto+CoreDataProperties.swift */,
+				8FBD650724CF7E3100075A4F /* CoreDataDataCore.swift */,
 			);
 			path = Cored;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				8F74566E2437A84900135837 /* SceneDelegate.swift in Sources */,
 				8F9865D6243A880400A08A3D /* EventsVC.swift in Sources */,
 				8FA3374E245A018A001A7DAD /* NetworkManager.swift in Sources */,
+				8FBD650824CF7E3100075A4F /* CoreDataDataCore.swift in Sources */,
 				8FA9B2F82492FDDE002A9923 /* Feasto+CoreDataClass.swift in Sources */,
 				8FB89641245FA1940073F7A5 /* ImageFetcher.swift in Sources */,
 				8FA8976B24524D97002D4CA2 /* RecipesViewController.swift in Sources */,
