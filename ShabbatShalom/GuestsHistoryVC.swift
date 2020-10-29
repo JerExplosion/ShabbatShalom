@@ -9,9 +9,7 @@
 import UIKit
 import Foundation
 
-
 fileprivate var mockGuestsHistoryList = ["Dailan", "Holly", "Henry Lee", "Dr. Goldring", "Shiffball", "Dailan", "Angela", "Holly", "Aunt Rachel", "Kevin Fat", "Henry Lee", "Angela", "Holly", "Aunt Rachel", "Kevin Fat", "Henry Lee"]
-
 
 class GuestsHistoryViewController: UITableViewController, UISearchResultsUpdating {
     
